@@ -6,7 +6,7 @@ In this article we will cover the below points.
 
 1. First go to flow.microsoft.com and login with your credentials
 2. Next I selected Create on my left navigation and selected Automated Cloud Flow as shown below.
-        ```<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png" width=600>```
+        <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png" width=600>
 3. Now it asked me to enter name of the flow and to choose the flow's trigger.
 4. Here I chose a SharePoint trigger called *When a file is created (Properties Only)* trigger and clicked on `Create` button. Please see the image below for reference.
 <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA2.png" width=500 align=center>
