@@ -14,3 +14,5 @@ In this article we will cover the below points.
 6. Now I add the Site Address and Library Name. Next I added a trigger condition in trigger settings to go there I clicked on the `...` (three dots/ellipses).
 7. This extended a menu of options and I selected `Settings` in here. Please see the image below for reference.
 ![PA3](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA3.png)
+8. This opened the settings page for this trigger and at the bottom of the screen I clicked on `+ Add` option which opened a new text box for entering my condition.
+9. In that box I entered this condition `@startsWith(triggerOutputs()?['body/{FilenameWithExtension}'],'Test')` and clicked on `Done` button.
