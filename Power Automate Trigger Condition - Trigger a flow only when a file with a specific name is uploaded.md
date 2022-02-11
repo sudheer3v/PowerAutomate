@@ -1,1 +1,1 @@
-# Power Automate - Trigger a flow only when the uploaded file name starts with a specific string.
+# Power Automate - Trigger flow only when an uploaded file name starts with a specific string.
