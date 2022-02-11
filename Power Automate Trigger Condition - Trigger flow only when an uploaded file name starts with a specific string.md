@@ -15,4 +15,7 @@ In this article we will cover the below points.
 7. This extended a menu of options and I selected `Settings` in here. Please see the image below for reference.
 ![PA3](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA3.png)
 8. This opened the settings page for this trigger and at the bottom of the screen I clicked on `+ Add` option which opened a new text box for entering my condition.
-9. In that box I entered this condition `@startsWith(triggerOutputs()?['body/{FilenameWithExtension}'],'Test')` and clicked on `Done` button.
+9. In that box I entered this condition `@startsWith(triggerOutputs()?['body/{FilenameWithExtension}'],'Test')` and clicked on `Done` button. Please see the below image for reference.
+![PA4](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA4.png)
+10. you have to have atleast one trigger and one action to save the flow. Once you complete your flow. Click on `Save` button to save and `Test` button to test. Please see the below image for reference.
+![PA5](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA5.png)
