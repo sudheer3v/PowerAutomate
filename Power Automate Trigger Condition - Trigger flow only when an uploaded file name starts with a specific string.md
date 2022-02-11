@@ -5,5 +5,5 @@ In this article we will cover the below points.
 - What condition is used when we want to start a flow only when file with specific name is uploaded.
 
 
-[PA1](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png)
+[PA1] (https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png)
 
