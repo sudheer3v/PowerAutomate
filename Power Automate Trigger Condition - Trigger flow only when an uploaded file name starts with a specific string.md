@@ -1,4 +1,9 @@
 # Power Automate - Trigger flow only when an uploaded file name starts with a specific string.
 
-### Requirement:
-We need to create a flow that starts only when a file is uploaded. We also need to add a condition to the flow, to check if the file name contains a specific string or not. This is called Trigger Condition.
+In this article we will cover the below points.
+- How to add a trigger condition to a flow. 
+- What condition is used when we want to start a flow only when file with specific name is uploaded.
+
+
+[PA1](https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png)
+
