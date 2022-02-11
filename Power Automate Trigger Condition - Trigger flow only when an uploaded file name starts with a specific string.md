@@ -8,7 +8,7 @@ In this article we will cover the below points.
 2. Next I selected Create on my left navigation and selected Automated Cloud Flow as shown below.
         <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png" width=600>
 3. Now it asked me to enter name of the flow and to choose the flow's trigger.
-4. Here I chose a SharePoint trigger called *When a file is created (Properties Only)* trigger and clicked on `Create` button as shown in the below image.
+4. Here I chose a SharePoint trigger called *When a file is created (Properties Only)* trigger and clicked on `Create` button.
       <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA2.png" width=600 align=center>
 6. Now I am inside the flow where I can add actions and build my flow as I need.
 7. Now I add the Site Address and Library Name. Next I added a trigger condition in trigger settings to go there I clicked on the `...` (three dots/ellipses).
