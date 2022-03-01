@@ -30,7 +30,8 @@ In this article we talk about:
 <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/Cases.JPG">
 
 ### Issue: 
-- I observed that my State Machine flow is skipping some cases in the Switch. 
+- I observed that my State Machine flow is skipping some cases in the Switch because users started raising Incidents saying they did not get their approval task.
+-  
 - The workflow status is directly changing to Succeeded instead of staying in running.
 
 <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/succeeded.JPG" width=800>
