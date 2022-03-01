@@ -1,4 +1,4 @@
-# Power Automate - State Machine flow skips states with no error; Status moves from running to succeeded.
+#Power Automate - State Machine flow skips states with no error; Status moves from running to succeeded.
 
 In this article we talk about:
 - An issue I faced with State Machine Workflow.
