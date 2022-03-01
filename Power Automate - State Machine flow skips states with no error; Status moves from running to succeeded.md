@@ -25,7 +25,9 @@ In this article we talk about:
 
 
 #### My State Machine
-In my State Machine flow, I have 5 Cases in my Switch and each case contains an approver. When Case 1 approver approves the Switch will move the flow to Case 2, when case 2 approver approves the switche will move the flow to case 3, this process continues until case 5, in case 5 when the approver approves it goes to Completed Status and the Switch statement will exit the Do Until.
+- In my State Machine flow, I have 5 Cases in my Switch and each case contains an approver. When Case 1 approver approves the Switch will move the flow to Case 2, when case 2 approver approves the switche will move the flow to case 3, this process continues until case 5, in case 5 when the approver approves it goes to Completed Status and the Switch statement will exit the Do Until.
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/Cases.JPG" width=700>
 
 ### Issue: 
 - I observed that my State Machine flow is skipping some cases in the Switch. 
