@@ -33,17 +33,26 @@ In this article we talk about:
 - I observed that my State Machine flow is skipping some cases in the Switch. 
 - The workflow status is directly changing to Succeeded instead of staying in running.
 
-<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/Statuses SMF.JPG" width=800>
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/succeeded.JPG" width=800>
 
 - When previous case approver approves, it should change the status to next case and send an email to next approver, in my case the status is changing but the next approver is not receiving any email. 
 - The next approver is not seeing any tasks assigned in Action Items.
 
 ### Resolution:
 - After enough research I found this article https://www.c-sharpcorner.com/blogs/develop-state-machine-workflow-using-power-automate-in-sharepoint-online that mentioned about Do Until action time limit.
-- There is a Timeout value for the Do Until action. The default value is PT1H (1 Hour), which is 1 hour. 
+- There is a Timeout value for the Do Until action. The default value is PT1H (1 Hour), which is 1 hour.
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit 1hr.JPG" width=800>
+
 - This means, if an approver cannot approve his case with in 1 hr then the Do Until action will time out and the Switch case will not move to next case.
 - We need to update this as necessary to support your process. The maximum value is P30D (30 Days) or PT720H (Day Converted to hours) (30 days).
-- Once I updated this to PT700H. Then it started working as expected.
+- I updated the TimeOut value to PT700H. 
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit720H.JPG" width=800>
+
+- Then it started working as expected. It stayed in running instead of succeeded.
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/running.JPG" width=800>
  
 
 
