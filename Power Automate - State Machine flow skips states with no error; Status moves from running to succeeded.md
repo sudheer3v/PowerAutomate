@@ -13,8 +13,13 @@ Power Automate offers a template that supports the concept of a State Machine. A
 <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/StateMachineFlowTemplate.JPG" width=700>
 <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/StateMachineSkeleton.JPG">
 
-As you may already know, Power Automate accomplishes State Machine flow concept by wrapping a Switch Statement inside of a Do Until action. The Switch statement lets you transition from one Case to another until a certain condition is met, which will exit the Do Until. In order to configure the Do Until, you must first create a variable to use for the escape value like Status = New. Below you can see that the Do Until will continue to run until the “Status” variable is “Completed.”
-    
+As you may already know, Power Automate accomplishes State Machine flow concept by wrapping a Switch Statement inside of a Do Until action. The Switch statement lets you transition from one Case to another until a certain condition is met, which will exit the Do Until. Below you can see that the Do Until will continue to run until the “Status” variable is “Completed.”
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil SMF.JPG">
+
+In order to configure the Do Until, you must first create a variable to use for the escape value like Status = New. 
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/New Status SMF.JPG">
 
 
 #### My State Machine
