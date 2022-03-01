@@ -6,8 +6,8 @@ In this article we talk about:
 - What is the resolution for this issue.
 
 ### Introduction:
-- What is State Machine?
-- As you may already know, Power Automate accomplishes State Machine flow concept by wrapping a Switch Statement inside of a Do Until action. The Switch statement lets you transition from one Case to another until a certain condition is met, which will exit the Do Until. In order to configure the Do Until, you must first create a variable to use for the escape value like Status = New. Below you can see that the Do Until will continue to run until the “Status” variable is “Completed.”
+#### What is State Machine?
+As you may already know, Power Automate accomplishes State Machine flow concept by wrapping a Switch Statement inside of a Do Until action. The Switch statement lets you transition from one Case to another until a certain condition is met, which will exit the Do Until. In order to configure the Do Until, you must first create a variable to use for the escape value like Status = New. Below you can see that the Do Until will continue to run until the “Status” variable is “Completed.”
 
 ### Issue: 
 - In my State Machine flow, I have 5 Cases in my Switch and each case contains an approver. When Case 1 approver approves the Switch will move the flow to Case 2, when case 2 approver approves the switche will move the flow to case 3, this process continues until case 5, in case 5 when the approver approves it goes to Completed Status and the Switch statement will exit the Do Until.
