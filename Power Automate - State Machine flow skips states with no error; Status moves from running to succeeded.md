@@ -1,9 +1,10 @@
 # Power Automate - State Machine flow skips states with no error; Status moves from running to succeeded.
 
 In this article we talk about:
-- An issue I faced with State Machine Workflow.
-- How to identify it.
-- What is the resolution for this issue.
+- Introduction
+- An issue I faced with State Machine Workflow
+- How I identified it
+- Resolution for this issue
 
 ### Introduction:
 #### What is State Machine?
