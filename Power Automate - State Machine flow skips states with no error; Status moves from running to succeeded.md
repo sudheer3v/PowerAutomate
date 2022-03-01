@@ -17,11 +17,11 @@ In this article we talk about:
 - The Switch statement lets you transition from one Case to another until a certain condition is met, which will exit the Do Until. 
 - Below you can see that the Do Until will continue to run until the “Status” variable is “Completed.”
 
-<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil SMF.JPG">
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil SMF.JPG" width=700>
 
 - In order to configure the Do Until, you must first create a variable to use for the escape value like Status = New. 
 
-<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/New Status SMF.JPG">
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/New Status SMF.JPG" width=700>
 
 
 #### My State Machine
