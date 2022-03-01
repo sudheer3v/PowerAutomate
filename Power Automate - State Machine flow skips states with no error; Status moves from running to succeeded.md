@@ -43,13 +43,13 @@ In this article we talk about:
 - After enough research I found this article https://www.c-sharpcorner.com/blogs/develop-state-machine-workflow-using-power-automate-in-sharepoint-online that mentioned about Do Until action time limit.
 - There is a Timeout value for the Do Until action. The default value is PT1H (1 Hour), which is 1 hour.
 
-<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit 1hr.JPG" width=800>
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit 1hr.JPG" width=700>
 
 - This means, if an approver cannot approve his case with in 1 hr then the Do Until action will time out and the Switch case will not move to next case.
 - We need to update this as necessary to support your process. The maximum value is P30D (30 Days) or PT720H (Day Converted to hours) (30 days).
 - I updated the TimeOut value to PT700H. 
 
-<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit720H.JPG" width=800>
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/DoUntil TimeLimit720H.JPG" width=700>
 
 - Then it started working as expected. It stayed in running instead of succeeded.
 
