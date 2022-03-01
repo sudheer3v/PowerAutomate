@@ -32,6 +32,9 @@ In this article we talk about:
 ### Issue: 
 - I observed that my State Machine flow is skipping some cases in the Switch. 
 - The workflow status is directly changing to Succeeded instead of staying in running.
+
+<img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/SMF_DoUntil_Issue/Statuses SMF.JPG" width=800>
+
 - When previous case approver approves, it should change the status to next case and send an email to next approver, in my case the status is changing but the next approver is not receiving any email. 
 - The next approver is not seeing any tasks assigned in Action Items.
 
