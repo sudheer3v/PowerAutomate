@@ -10,6 +10,6 @@ In this article we will talk about a workaround for this itemUrl issue.
 3. Your flow opens in Edit mode with your trigger on the top, configure your trigger with your Site Address and Library Name.
 4. Next, Click New step and choose Get file properties operation, configure the Site Address, Library Name and in the Id field pass the Id value of For a selected file trigger.
       <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA2.png" width=600 align=center>
-6. Now you can add Compose data operation to construct a new URL.
-7. In the Inputs field give your URL prefix - "https://contoso.sharepoint.com/sites/abcs/Full Path" and give Full Path property at the end from the Get file properties action.
-8. You can now use this Compose operation output in an email or anywhere else.
+6. Now you construct a new URL.
+7. In the Email body you can simply concatiante the URL prefix and Full Path property from the Get file properties action. "https://contoso.sharepoint.com/sites/abcs/Full Path" 
+8. You can assign this to a variable to reuse.
