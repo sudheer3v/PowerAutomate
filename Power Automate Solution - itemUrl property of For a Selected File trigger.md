@@ -4,19 +4,12 @@
 When you use itemUrl value of "For a Selected File" trigger in an email or anywhere else, when you click that link it always opens the file in web browser, even if you setup your SharePoint Library settings to open all the files in Client Application.
 In this article we will talk about a workaround for this itemUrl issue.
 
-1. First go to flow.microsoft.com and login with your credentials
-2. Next I selected Create on my left navigation and selected Automated Cloud Flow as shown below.
+1. First go to make.powerautomate.com and login with your credentials
+2. Select Create on left navigation and select Instant Cloud Flow, Name your flow and select For a Selected File as your trigger and hit Create button. 
         <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA1.png" width=600>
-3. Now it asked me to enter name of the flow and to choose the flow's trigger.
-4. Here I chose a SharePoint trigger called *When a file is created (Properties Only)* trigger and clicked on `Create` button.
+3. Your flow opens in Edit mode with your trigger on the top, configure your trigger with your Site Address and Library Name.
+4. Next, Click New step and choose Get file properties operation, configure the Site Address, Library Name and in the Id field pass the Id value of For a selected file trigger.
       <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA2.png" width=600 align=center>
-6. Now I am inside the flow where I can add actions and build my flow as I need.
-7. Now I add the Site Address and Library Name. Next I added a trigger condition in trigger settings to go there I clicked on the `...` (three dots/ellipses).
-8. This extended a menu of options and I selected `Settings` in here. Please see the image below for reference.
-        <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA3.png" width=600>
-8. This opened the settings page for this trigger and at the bottom of the screen I clicked on `+ Add` option which opened a new text box for entering my condition.
-9. In that box I entered this condition `@startsWith(triggerOutputs()?['body/{FilenameWithExtension}'],'Test')` and clicked on `Done`.
-        <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA4.png" width=500>
-10. you have to have atleast one trigger and one action to save the flow. Once you complete your flow. Click on `Save` button to save and `Test` button to test. Please see the below image for reference.
-        <img src="https://github.com/sudheer3v/PowerAutomate/blob/PowerAutomate_DEV/src/Images/PATriggerConditionforName/PA5.png" width=700>
-
+6. Now you can add Compose data operation to construct a new URL.
+7. In the Inputs field give your URL prefix - "https://contoso.sharepoint.com/sites/abcs/Full Path" and give Full Path property at the end from the Get file properties action.
+8. You can now use this Compose operation output in an email or anywhere else.
